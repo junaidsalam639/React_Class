@@ -47,8 +47,6 @@ function App() {
           <img src={item.thumbnail} alt="" />
           <h2>{item.title}</h2>
           <p>{item.description}</p>
-          {/* Add other fields you want to display */}
-
         </div>
       ))}
     </div>
