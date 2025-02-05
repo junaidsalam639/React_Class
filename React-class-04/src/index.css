@@ -1,0 +1,197 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #c7ecee;
+}
+.news-card{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 18rem;
+    height: 27rem;
+    margin: 10px;
+    border: 2px solid #dff9fb;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
+.news-card img{
+   width: 270px;
+   height: 35vh;
+   background-position: center;
+}
+.news-card h2{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.news-card p{
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+}
+  
+h1{
+    font-weight: bold;
+    cursor: pointer;
+    transition: all;
+}
+
+.count-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.count-down .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.count-down .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.count-down .count-show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.count-down .input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.count-down .button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/* todo start */
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.todo .todo-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+/* todo end */
+.input-group .form-control:focus{
+    box-shadow: none;
+}
+
+/* weather start */
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.weather .weather-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.weather .weather-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: #4834d4;
+    border-radius: 6px;
+}
+.weather .weather-data h3{
+    color: #fff;
+}
+button:hover{
+    mix-blend-mode: difference;
+}
+
+/* weather end */
+
+
+/* navbar start */
+form a{
+    text-decoration: none;
+    background-color: #4834d4;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: 1s;
+}
+form a:hover{
+    background-color: #fff;
+    color: #4834d4;
+}
+.navbar{
+    background-color: #4834d4;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding-left: 20px;
+    transition: 1s;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler{
+    border: 0;
+    outline: 0;
+}
+.navbar-toggler span{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: 0;
+    outline: 0;
+}
+/* navbar end */

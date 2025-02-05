@@ -1,0 +1,123 @@
+
+/* navbar start */
+form a{
+  text-decoration: none;
+  background-color: #4834d4;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  transition: 1s;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar{
+  background-color: #4834d4;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  padding-left: 20px;
+  transition: 1s;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover{
+  text-decoration: underline;
+}
+
+.navbar-toggler{
+  border: 0;
+  outline: 0;
+}
+.navbar-toggler span{
+  color: #fff;
+}
+.navbar .navbar-toggler{
+  border: 0;
+}
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+}
+/* navbar end */
+
+
+
+/* login-singup-user start */
+.login-singup-user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login-singup-user .input-group .form-control:focus{
+  box-shadow: none;
+}
+.row .input-group .form-control:focus{
+  box-shadow: none;
+}
+
+
+/* login-singup-user end */
+
+
+
+
+/* <!-- public post start --> */
+
+.input-group .form-control:focus{
+  box-shadow: none;
+}
+
+.post_add section{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.post_add img{
+  padding: 5px;
+  border-radius: 10%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+.post_add p{
+  padding-top: 15px;
+}
+.post_add :first-child{
+  margin-top: 4%;
+}
+
+.post_add button{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+/* <!-- public post end --> */
+
+
+button:focus{
+  border: 0;
+  outline: 0;
+}
+.btn:focus{
+  border: 0;
+  outline: 0;
+}
+h5{
+  text-transform: capitalize;
+}
+
+#root1 img{
+  width: 100;
+}
